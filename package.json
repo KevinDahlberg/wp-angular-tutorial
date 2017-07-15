@@ -1,0 +1,27 @@
+{
+  "name": "wp-angular-tutorial",
+  "version": "1.0.0",
+  "description": "To Do list tutorial combining AngularJS and the Wordpress REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinDahlberg/wp-angular-tutorial.git"
+  },
+  "author": "Kevin Dahlberg",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/KevinDahlberg/wp-angular-tutorial/issues"
+  },
+  "homepage": "https://github.com/KevinDahlberg/wp-angular-tutorial#readme",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-animate": "^1.6.4",
+    "angular-aria": "^1.6.4",
+    "angular-material": "^1.1.4",
+    "angular-route": "^1.6.4",
+    "angular-sanitize": "^1.6.4"
+  }
+}
