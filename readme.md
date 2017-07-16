@@ -26,3 +26,9 @@ package.json
 ## Setting Up Angular
 
 - functions.php - enqueue scripts, styles
+
+- set up DOCTYPE HTML in header (screenshot taken)
+
+- Set up footer (screenshot)
+
+- source header and footer in index.php
