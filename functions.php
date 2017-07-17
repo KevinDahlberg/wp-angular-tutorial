@@ -27,9 +27,12 @@ function scripts() {
 	//classes
 
 	//load services
+		wp_enqueue_script('ListService', get_template_directory_uri() .'/scripts/services/ListService.js');
 
   //load controllers
-
+		wp_enqueue_script('ToDoController', get_template_directory_uri() .'/scripts/controllers/ToDoController.js');
+		wp_enqueue_scripts('DoneController', get_template_directory_uri() .'/scripts/controllers/DoneController.js');
+		
   if ( is_user_logged_in() && current_user_can( 'edit_posts' ) ) {
     wp_localize_script('RunService', 'WPsettings', array(
       'root' => esc_url_raw( rest_url() ),

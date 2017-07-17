@@ -32,3 +32,9 @@ package.json
 - Set up footer (screenshot)
 
 - source header and footer in index.php
+
+- myApp setup in config file (pic)
+
+- set up service and 2 controllers (pic)
+
+- source files in functions.php (pic)
